@@ -14,7 +14,7 @@ WidevineCrypto.chromeRSAPublicKey =
 -----END PUBLIC KEY-----`;
 
 // The private 2048-bit RSA key Widevine uses for authenticating Chrome devices in L3
-// Extracted by applying some mathematical tricks to Araxan's white-box algorithm
+// Extracted by applying some mathematical tricks to Arxan's white-box algorithm
 WidevineCrypto.chromeRSAPrivateKey = 
 `-----BEGIN PRIVATE KEY-----
 [redacted]
