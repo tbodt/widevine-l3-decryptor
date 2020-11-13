@@ -1,4 +1,7 @@
 # Widevine L3 Decryptor
+
+**Note:** The original repo was [DMCA'd by Google](https://github.com/github/dmca/blob/master/2020/11/2020-11-09-Google.md). This version has all content Google complained about stripped from history (Chrome Windows L3 key, license request protobuf, copyrighted documentation). Without the key, it can't possibly work.
+
 [Widevine](https://www.widevine.com/solutions/widevine-drm) is a Google-owned DRM system that's in use by many popular streaming services (Netflix, Spotify, etc.) to prevent media content from being downloaded.
 
 But Widevine's least secure security level, L3, as used in most browsers and PCs, is implemented 100% in software (i.e no hardware TEEs), thereby making it reversible and bypassable.
